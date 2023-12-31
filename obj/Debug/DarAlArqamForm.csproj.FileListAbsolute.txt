@@ -1,0 +1,338 @@
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe.config
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\DarAlArqamForm.pdb
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\EntityFramework.dll
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.dll
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\EntityFramework.xml
+D:\ITI\LINQ\Project\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.xml
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.AssemblyReference.cache
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.SuggestedBindingRedirects.cache
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.Properties.Resources.resources
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.GenerateResource.cache
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CoreCompileInputs.cache
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CopyComplete
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.exe
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.pdb
+D:\ITI\LINQ\Project\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.FirstMigration.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.AssemblyReference.cache
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddBranch.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddClassRoom.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.DarAlArqam.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddCost.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddCountry.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddDonation.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddEmpolyeeForm.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddGeneralSettings.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddLevel.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddMaterial.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddStudent.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddStudentMaterial.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AutoHideMessageBoxForm.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Cost.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DeleteEmpolyee.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DeleteMaterial.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.DonationUpdate.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.DonnationUpdateData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditEmpolyee.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditGeneralSettings.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditMaterial.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.EmpolyeeData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.GeneralSettings.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.MaterialData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Payments.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.StudentMaterialsForm.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateCost.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateLevel.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateLevelData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateStudentMaterial.resources
+E:\DarAlArqamForm\obj\Debug\DarAlarqamProject.UserLogin.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.GetTeacher.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EmployeeSalarys.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Report.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddTeacher.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Branchdata.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Teachersalary.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateBranchData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Classroomdata.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateClassRoomData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Countrydata.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateCountryData.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.updatestudent.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateTeacher.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.ver3.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.gf.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.gj.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.v5.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Properties.Resources.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.studentdata.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.reciept.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.DarAlArqam.ar-EG.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddStudent.ar-ER.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.studentdata.ar-EG.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.GenerateResource.cache
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CoreCompileInputs.cache
+E:\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe.config
+E:\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe
+E:\DarAlArqamForm\bin\Debug\DarAlArqamForm.pdb
+E:\DarAlArqamForm\bin\Debug\ar-EG\DarAlArqamForm.resources.dll
+E:\DarAlArqamForm\bin\Debug\ar-ER\DarAlArqamForm.resources.dll
+E:\DarAlArqamForm\bin\Debug\EntityFramework.dll
+E:\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.AWT.WinForms.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Beans.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Charsets.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Corba.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Core.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Management.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Media.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Misc.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Naming.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Remoting.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Security.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Text.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Tools.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Util.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.API.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.Runtime.dll
+E:\DarAlArqamForm\bin\Debug\IKVM.Runtime.JNI.dll
+E:\DarAlArqamForm\bin\Debug\itextsharp.dll
+E:\DarAlArqamForm\bin\Debug\SVG.dll
+E:\DarAlArqamForm\bin\Debug\Syncfusion.Licensing.dll
+E:\DarAlArqamForm\bin\Debug\Syncfusion.Pdf.Base.dll
+E:\DarAlArqamForm\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\DarAlArqamForm\bin\Debug\EntityFramework.xml
+E:\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.xml
+E:\DarAlArqamForm\bin\Debug\itextsharp.xml
+E:\DarAlArqamForm\bin\Debug\Syncfusion.Pdf.Base.xml
+E:\DarAlArqamForm\obj\Debug\ar-EG\DarAlArqamForm.resources.dll
+E:\DarAlArqamForm\obj\Debug\ar-ER\DarAlArqamForm.resources.dll
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CopyComplete
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.exe
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.pdb
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Register.resources
+E:\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Updateuser.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe.config
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\DarAlArqamForm.pdb
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\ar-EG\DarAlArqamForm.resources.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\ar-ER\DarAlArqamForm.resources.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\EntityFramework.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.AWT.WinForms.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Beans.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Charsets.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Corba.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Core.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Management.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Media.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Misc.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Naming.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Remoting.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Security.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Text.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Tools.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Util.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.API.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.Runtime.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\IKVM.Runtime.JNI.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\itextsharp.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\SVG.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\Syncfusion.Licensing.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\Syncfusion.Pdf.Base.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\EntityFramework.xml
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.xml
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\itextsharp.xml
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\bin\Debug\Syncfusion.Pdf.Base.xml
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.AssemblyReference.cache
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddBranch.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddClassRoom.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.DarAlArqam.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddCost.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddCountry.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddDonation.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddEmpolyeeForm.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddGeneralSettings.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddLevel.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddMaterial.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddStudent.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddStudentMaterial.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AutoHideMessageBoxForm.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Cost.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DeleteEmpolyee.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DeleteMaterial.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DonationReport.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.DonationUpdate.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.DonnationUpdateData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditEmpolyee.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditGeneralSettings.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditMaterial.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.EmpolyeeData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.GeneralSettings.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.MaterialData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Payments.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Register.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Reports.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.StudentMaterialsForm.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateCost.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateLevel.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateLevelData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateStudentMaterial.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Updateuser.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlarqamProject.UserLogin.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.GetTeacher.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EmployeeSalarys.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddTeacher.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Branchdata.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Teachersalary.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateBranchData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Classroomdata.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateClassRoomData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Countrydata.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateCountryData.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.updatestudent.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateTeacher.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.ver3.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.gf.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.gj.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.v5.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Properties.Resources.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.studentdata.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.reciept.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.DarAlArqam.ar-EG.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddStudent.ar-ER.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.studentdata.ar-EG.resources
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.GenerateResource.cache
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CoreCompileInputs.cache
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\ar-EG\DarAlArqamForm.resources.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\ar-ER\DarAlArqamForm.resources.dll
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CopyComplete
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.exe
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.pdb
+D:\ITI\LINQ\Project\Mostafa 9-10-2023\project7\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.StudentGradeReports.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe.config
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm.pdb
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\ar-EG\DarAlArqamForm.resources.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\ar-ER\DarAlArqamForm.resources.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\EntityFramework.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.AWT.WinForms.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Beans.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Charsets.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Corba.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Core.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Management.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Media.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Misc.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Naming.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Remoting.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Security.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Text.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Tools.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.Util.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.API.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.Runtime.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\IKVM.Runtime.JNI.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\itextsharp.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\SVG.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\Syncfusion.Licensing.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\Syncfusion.Pdf.Base.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\System.Text.Encoding.CodePages.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\EntityFramework.xml
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\EntityFramework.SqlServer.xml
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\itextsharp.xml
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\Syncfusion.Pdf.Base.xml
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.AssemblyReference.cache
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddBranch.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddClassRoom.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.DarAlArqam.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddCost.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddCountry.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddDonation.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddEmpolyeeForm.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddGeneralSettings.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddLevel.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddMaterial.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddStudent.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddStudentMaterial.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AutoHideMessageBoxForm.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Cost.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DeleteEmpolyee.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DeleteMaterial.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.DonationReport.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.DonationUpdate.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.DonnationUpdateData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditEmpolyee.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditGeneralSettings.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EditMaterial.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.EmpolyeeData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.GeneralSettings.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.MaterialData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Payments.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Register.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Reports.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.StudentGradeReports.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.StudentMaterialsForm.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateCost.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateLevel.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateLevelData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateStudentMaterial.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Updateuser.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlarqamProject.UserLogin.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.GetTeacher.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.EmployeeSalarys.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.AddTeacher.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Branchdata.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.Teachersalary.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateBranchData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Classroomdata.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateClassRoomData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Countrydata.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.UpdateCountryData.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.updatestudent.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Forms.UpdateTeacher.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Properties.Resources.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.studentdata.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.reciept.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.DarAlArqam.ar-EG.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.AddStudent.ar-ER.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.studentdata.ar-EG.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.GenerateResource.cache
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CoreCompileInputs.cache
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\ar-EG\DarAlArqamForm.resources.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\ar-ER\DarAlArqamForm.resources.dll
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.csproj.CopyComplete
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.exe
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.pdb
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm.exe.manifest
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm.application
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.exe.manifest
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.application
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\obj\Debug\DarAlArqamForm.Migrations.firs.resources
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm3.mdf
+F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\DarAlArqamForm\bin\Debug\DarAlArqamForm3_log.ldf

@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{704916F8-5500-4802-9C57-A5DB4CEAE9C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DarAlArqamForm</RootNamespace>
+    <AssemblyName>DarAlArqamForm</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\ITI\LINQ\Project\Mostafa 9-10-2023\project8\publishingproject2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>DarAlArqam</ProductName>
+    <PublisherName>AhmedPublish</PublisherName>
+    <SuiteName>darAlArqamSys</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CB0A420F84609213343EE3B81B344EBB0EA984D3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DarAlArqamForm_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.AWT.WinForms, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Tools, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Bind, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Crypto, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Parse, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Transform, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.WebServices, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.XPath, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI, Version=7.4.5196.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>packages\IKVM.7.4.5196.0\lib\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SVG, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\SvgNet.1.0.8\lib\net40\SVG.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=23.1460.39.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Licensing.23.1.39\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base, Version=22.1460.34.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Pdf.AspNet.22.1.34\lib\net46\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encoding.CodePages.4.4.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AddBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddBranch.designer.cs">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddClassRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddClassRoom.Designer.cs">
+      <DependentUpon>AddClassRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DarAlArqam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DarAlArqam.Designer.cs">
+      <DependentUpon>DarAlArqam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ApplicationDbContext.cs" />
+    <Compile Include="Forms\AddCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddCost.designer.cs">
+      <DependentUpon>AddCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddCountry.designer.cs">
+      <DependentUpon>AddCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddDonation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddDonation.designer.cs">
+      <DependentUpon>AddDonation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddEmpolyeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddEmpolyeeForm.designer.cs">
+      <DependentUpon>AddEmpolyeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddGeneralSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddGeneralSettings.Designer.cs">
+      <DependentUpon>AddGeneralSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddLevel.designer.cs">
+      <DependentUpon>AddLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddMaterial.designer.cs">
+      <DependentUpon>AddMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddStudentMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddStudentMaterial.designer.cs">
+      <DependentUpon>AddStudentMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutoHideMessageBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutoHideMessageBoxForm.designer.cs">
+      <DependentUpon>AutoHideMessageBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cost.Designer.cs">
+      <DependentUpon>Cost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeleteEmpolyee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeleteEmpolyee.designer.cs">
+      <DependentUpon>DeleteEmpolyee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeleteMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeleteMaterial.designer.cs">
+      <DependentUpon>DeleteMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DonationReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DonationReport.designer.cs">
+      <DependentUpon>DonationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DonationUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DonationUpdate.designer.cs">
+      <DependentUpon>DonationUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DonnationUpdateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DonnationUpdateData.designer.cs">
+      <DependentUpon>DonnationUpdateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditEmpolyee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditEmpolyee.designer.cs">
+      <DependentUpon>EditEmpolyee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditGeneralSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditGeneralSettings.designer.cs">
+      <DependentUpon>EditGeneralSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditMaterial.designer.cs">
+      <DependentUpon>EditMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EmpolyeeData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EmpolyeeData.designer.cs">
+      <DependentUpon>EmpolyeeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GeneralSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GeneralSettings.designer.cs">
+      <DependentUpon>GeneralSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MaterialData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MaterialData.designer.cs">
+      <DependentUpon>MaterialData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Payments.designer.cs">
+      <DependentUpon>Payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reports.designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentGradeReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentGradeReports.designer.cs">
+      <DependentUpon>StudentGradeReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentMaterials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentMaterials.designer.cs">
+      <DependentUpon>StudentMaterials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateCost.designer.cs">
+      <DependentUpon>UpdateCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateLevel.designer.cs">
+      <DependentUpon>UpdateLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateLevelData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateLevelData.designer.cs">
+      <DependentUpon>UpdateLevelData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateStudentMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateStudentMaterial.designer.cs">
+      <DependentUpon>UpdateStudentMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Updateuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Updateuser.Designer.cs">
+      <DependentUpon>Updateuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GetTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GetTeacher.designer.cs">
+      <DependentUpon>GetTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EmployeeSalarys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EmployeeSalarys.Designer.cs">
+      <DependentUpon>EmployeeSalarys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Addteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Addteacher.designer.cs">
+      <DependentUpon>Addteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Branchdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Branchdata.designer.cs">
+      <DependentUpon>Branchdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Teachersalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Teachersalary.Designer.cs">
+      <DependentUpon>Teachersalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateBranchData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateBranchData.designer.cs">
+      <DependentUpon>UpdateBranchData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classroomdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classroomdata.designer.cs">
+      <DependentUpon>Classroomdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateClassRoomData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateClassRoomData.designer.cs">
+      <DependentUpon>UpdateClassRoomData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Countrydata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Countrydata.designer.cs">
+      <DependentUpon>Countrydata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateCountryData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateCountryData.designer.cs">
+      <DependentUpon>UpdateCountryData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\updatestudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\updatestudent.Designer.cs">
+      <DependentUpon>updatestudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateTeacher.designer.cs">
+      <DependentUpon>UpdateTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202312101421204_firs.cs" />
+    <Compile Include="Migrations\202312101421204_firs.designer.cs">
+      <DependentUpon>202312101421204_firs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ClassRoom.cs" />
+    <Compile Include="Models\Cost.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\DarBalance.cs" />
+    <Compile Include="Models\Branch.cs" />
+    <Compile Include="Models\Donation.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeSalary.cs" />
+    <Compile Include="Models\Level.cs" />
+    <Compile Include="Models\Material.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentMaterial.cs" />
+    <Compile Include="Models\StudentPayment.cs" />
+    <Compile Include="Models\GeneralSetting.cs" />
+    <Compile Include="Models\Teacher.cs" />
+    <Compile Include="Models\TeacherSalary.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\studentdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\studentdata.Designer.cs">
+      <DependentUpon>studentdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\reciept .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\reciept .Designer.cs">
+      <DependentUpon>reciept .cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DarAlArqam.ar-EG.resx">
+      <DependentUpon>DarAlArqam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddBranch.resx">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddClassRoom.resx">
+      <DependentUpon>AddClassRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DarAlArqam.resx">
+      <DependentUpon>DarAlArqam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddCost.resx">
+      <DependentUpon>AddCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddCountry.resx">
+      <DependentUpon>AddCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddDonation.resx">
+      <DependentUpon>AddDonation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddEmpolyeeForm.resx">
+      <DependentUpon>AddEmpolyeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddGeneralSettings.resx">
+      <DependentUpon>AddGeneralSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddLevel.resx">
+      <DependentUpon>AddLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddMaterial.resx">
+      <DependentUpon>AddMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddStudent.ar-ER.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddStudentMaterial.resx">
+      <DependentUpon>AddStudentMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutoHideMessageBoxForm.resx">
+      <DependentUpon>AutoHideMessageBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cost.resx">
+      <DependentUpon>Cost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteEmpolyee.resx">
+      <DependentUpon>DeleteEmpolyee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteMaterial.resx">
+      <DependentUpon>DeleteMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DonationReport.resx">
+      <DependentUpon>DonationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DonationUpdate.resx">
+      <DependentUpon>DonationUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DonnationUpdateData.resx">
+      <DependentUpon>DonnationUpdateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditEmpolyee.resx">
+      <DependentUpon>EditEmpolyee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditGeneralSettings.resx">
+      <DependentUpon>EditGeneralSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditMaterial.resx">
+      <DependentUpon>EditMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmpolyeeData.resx">
+      <DependentUpon>EmpolyeeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GeneralSettings.resx">
+      <DependentUpon>GeneralSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MaterialData.resx">
+      <DependentUpon>MaterialData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Payments.resx">
+      <DependentUpon>Payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentGradeReports.resx">
+      <DependentUpon>StudentGradeReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentMaterials.resx">
+      <DependentUpon>StudentMaterials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateCost.resx">
+      <DependentUpon>UpdateCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateLevel.resx">
+      <DependentUpon>UpdateLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateLevelData.resx">
+      <DependentUpon>UpdateLevelData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateStudentMaterial.resx">
+      <DependentUpon>UpdateStudentMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Updateuser.resx">
+      <DependentUpon>Updateuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GetTeacher.resx">
+      <DependentUpon>GetTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmployeeSalarys.resx">
+      <DependentUpon>EmployeeSalarys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\studentdata.ar-EG.resx">
+      <DependentUpon>studentdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Addteacher.resx">
+      <DependentUpon>Addteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Branchdata.resx">
+      <DependentUpon>Branchdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Teachersalary.resx">
+      <DependentUpon>Teachersalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateBranchData.resx">
+      <DependentUpon>UpdateBranchData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classroomdata.resx">
+      <DependentUpon>Classroomdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateClassRoomData.resx">
+      <DependentUpon>UpdateClassRoomData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Countrydata.resx">
+      <DependentUpon>Countrydata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateCountryData.resx">
+      <DependentUpon>UpdateCountryData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\updatestudent.resx">
+      <DependentUpon>updatestudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateTeacher.resx">
+      <DependentUpon>UpdateTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312101421204_firs.resx">
+      <DependentUpon>202312101421204_firs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\studentdata.resx">
+      <DependentUpon>studentdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\reciept .resx">
+      <DependentUpon>reciept .cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DarAlArqamForm_TemporaryKey.pfx" />
+    <None Include="Forms\DarAlArqamForm.csproj" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\ResourcesBase.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myfont.ttf" />
+    <None Include="Resources\backphoto1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backphoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addstudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\country.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\branch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\getmony.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Students.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Material.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Students1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teachers2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teachers21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teachers3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moneytotal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\costout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\costin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\total.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roles1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DarAlArqamForm3.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DarAlArqamForm3_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+</Project>
